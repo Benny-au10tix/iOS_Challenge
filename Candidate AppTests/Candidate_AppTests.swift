@@ -9,25 +9,36 @@ import XCTest
 @testable import Candidate_App
 
 class Candidate_AppTests: XCTestCase {
+    
+    // MARK: - Properties
+    
+    var sut: FetchViewController!
+    
+    
+    // MARK: - Test Case Life Cycle
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        do {
+            try super.setUpWithError()
+        } catch let error {
+            throw error
+        }
+        self.sut = FetchViewController()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        self.sut = nil
+        do {
+            try super.tearDownWithError()
+        } catch let error {
+            throw error
         }
+    }
+    
+    func testFetchButtonPosition() {
+        self.sut.setupButton()
+        XCTAssertEqual(self.sut.fetchButton?.title(for: .normal),
+                       "Show Dogecoin Rate")
     }
 
 }

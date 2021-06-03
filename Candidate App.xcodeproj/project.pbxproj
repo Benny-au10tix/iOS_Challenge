@@ -23,6 +23,12 @@
 		B032AF612663D7710080DE11 /* FetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032AF602663D7710080DE11 /* FetchViewController.swift */; };
 		B032AF622663D7710080DE11 /* FetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032AF602663D7710080DE11 /* FetchViewController.swift */; };
 		B032AF632663D7710080DE11 /* FetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032AF602663D7710080DE11 /* FetchViewController.swift */; };
+		B052436A2668B698006979A2 /* CMCDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EB69126677D4700375B3D /* CMCDataFetcher.swift */; };
+		B052436B2668B698006979A2 /* CMCDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EB69126677D4700375B3D /* CMCDataFetcher.swift */; };
+		B052436C2668B69B006979A2 /* CMCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EB69326677FC700375B3D /* CMCResponse.swift */; };
+		B052436D2668B69B006979A2 /* CMCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EB69326677FC700375B3D /* CMCResponse.swift */; };
+		B052436E2668B69D006979A2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EB6952667ABB700375B3D /* ImageDownloader.swift */; };
+		B052436F2668B69E006979A2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3EB6952667ABB700375B3D /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -337,8 +343,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B032AF3F2663B6A20080DE11 /* Candidate_AppTests.swift in Sources */,
+				B052436A2668B698006979A2 /* CMCDataFetcher.swift in Sources */,
 				B032AF5E2663CB100080DE11 /* DogeViewController.swift in Sources */,
 				B032AF622663D7710080DE11 /* FetchViewController.swift in Sources */,
+				B052436E2668B69D006979A2 /* ImageDownloader.swift in Sources */,
+				B052436C2668B69B006979A2 /* CMCResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B032AF4A2663B6A20080DE11 /* Candidate_AppUITests.swift in Sources */,
+				B052436B2668B698006979A2 /* CMCDataFetcher.swift in Sources */,
 				B032AF5F2663CB100080DE11 /* DogeViewController.swift in Sources */,
 				B032AF632663D7710080DE11 /* FetchViewController.swift in Sources */,
+				B052436F2668B69E006979A2 /* ImageDownloader.swift in Sources */,
+				B052436D2668B69B006979A2 /* CMCResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
