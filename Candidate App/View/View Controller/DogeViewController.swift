@@ -14,7 +14,7 @@ class DogeViewController: UIViewController {
         let imageDownloader = ImageDownloader()
         
         var dogeImageUrl: String {
-            "https://static.coindesk.com/wp-content/uploads/2021/04/dogecoin-710x458.jpg"
+            "http://static.coindesk.com/wp-content/uploads/2021/04/dogecoin-710x458.jpg"
         }
         var imageData: Data?
         var cmcResponse: CMCResponse?
